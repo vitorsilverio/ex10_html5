@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 14 - Acessibilidade WCAG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1><img src="icone-estrela.png" class="icone-decorativo"> Sistema Acadêmico</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Notas</a>
+            <a href="#">Matrícula</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <article class="artigo-principal">
+            <h2>O que é Design Universal?</h2>
+            
+            <img src="https://placehold.co/600x300/3498db/ffffff?text=Pessoas+usando+tecnologia" class="imagem-destaque">
+            
+            <p class="texto-baixo-contraste">
+                O design universal busca criar produtos que sejam acessíveis e utilizáveis pelo maior número possível de pessoas, independentemente de suas habilidades, idade ou situação.
+            </p>
+            <a href="#" class="btn-leia-mais">Leia o artigo completo</a>
+        </article>
+
+        <section class="area-formulario">
+            <h3>Atualizar Cadastro</h3>
+            
+            <p class="msg-aviso">Atenção: Os campos destacados em vermelho são obrigatórios.</p>
+            
+            <form>
+                <div class="campo erro-cor">
+                    <label>E-mail</label>
+                    <input type="text">
+                </div>
+                <button type="button" class="btn-enviar">Salvar Dados</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
