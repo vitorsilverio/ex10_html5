@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
+
+
 
 body {
     font-family: Arial, sans-serif;
@@ -60,5 +63,20 @@ body {
     border: 2px solid #e74c3c;
     padding: 8px;
     width: 100%;
+}
+
+/**
+    * Classe para esconder elementos visualmente, mas mantê-los acessíveis para leitores de tela.
+    * Padrão de mercado
+*/
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0); /* Clip foi descontinuado, mas é mantido para compatibilidade */
+    border: 0;
 }
 
